@@ -1,5 +1,5 @@
-name: Shell cmds
-on: [push]
+name: Shell Cmds
+on: [push, push]
 jobs:
   run-shell-cmd:
     runs-on: ubuntu-latest
