@@ -1,6 +1,6 @@
 name: Shell Cmds
 
-on: [push, pull]
+on: [push]
 
 jobs:
   run-shell-commands:
