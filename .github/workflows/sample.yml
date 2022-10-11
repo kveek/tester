@@ -1,0 +1,14 @@
+name: Shell Cmds
+
+on: [push, pull]
+
+jobs:
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo a string
+        run: echo "Goodbye Cruel World"
+      - name: multiline script
+        run: |
+          node -v
+          npm -v
